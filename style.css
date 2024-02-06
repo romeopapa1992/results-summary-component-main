@@ -21,7 +21,7 @@ align-items: center;
   border-radius: 2rem;
   width: 600px;
   height: 405px;
-  box-shadow: rgb(0, 0, 0, 0.3) 0 .7rem 1.5rem 0 ;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .result {
@@ -46,11 +46,6 @@ align-items: center;
   font-size: 1.3rem;
 }
 
-h1 {
-  font-size: 3.4rem;
-  color: white;
-  margin-top: 12px;
-}
 
 .result h2 {
   font-size: 2rem;
@@ -71,6 +66,12 @@ h1 {
     hsl(241, 72%, 48%, 0)
     );
   }
+
+.circle h2 {
+    font-size: 3.4rem;
+    color: white;
+    margin-top: 12px;
+}
 
 .circle h3 {
   font-size: .8rem;
