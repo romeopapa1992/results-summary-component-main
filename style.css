@@ -40,14 +40,14 @@ align-items: center;
     );
   }
 
-.result h3 {
+.result h1 {
   color: hsl(241, 100%, 89%);
   margin-bottom: 13px;
   font-size: 1.3rem;
 }
 
 
-.result h2 {
+.result span {
   font-size: 2rem;
   color: white;
 }
@@ -146,7 +146,7 @@ align-items: center;
   color: hsl(234, 85%, 45%);
 }
 
-.rows h3 {
+.rows span {
   color: grey;
 }
 
@@ -169,7 +169,7 @@ align-items: center;
   color: white;
 }
 
-.continue h2 {
+.continue span {
   font-size: 14px;
 }
 
@@ -207,6 +207,7 @@ align-items: center;
   .both-cards {
     flex-direction: column;
     height: 100%;
+    margin-bottom: 25px;
   }
 
   .result {
